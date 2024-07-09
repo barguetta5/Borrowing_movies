@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="730.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.OrdersViewController">
+   <children>
+      <AnchorPane layoutX="21.0" layoutY="155.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID1" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName1" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle1" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price1" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate1" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="21.0" layoutY="333.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID12" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName12" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle12" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price12" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate12" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="21.0" layoutY="510.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID121" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName121" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle121" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price121" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate121" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="164.0" layoutY="154.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID11" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName11" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle11" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price11" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate11" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="164.0" layoutY="332.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID122" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName122" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle122" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price122" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate122" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="164.0" layoutY="509.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID1211" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName1211" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle1211" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price1211" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate1211" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="304.0" layoutY="154.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="304.0" layoutY="332.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID1221" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName1221" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle1221" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price1221" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate1221" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="304.0" layoutY="509.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID12111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName12111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle12111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price12111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate12111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="442.0" layoutY="153.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID1111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName1111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle1111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price1111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate1111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="442.0" layoutY="331.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID12211" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName12211" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle12211" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price12211" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate12211" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="442.0" layoutY="508.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID121111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName121111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle121111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price121111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate121111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="582.0" layoutY="153.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID11111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName11111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle11111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price11111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate11111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="582.0" layoutY="331.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID122111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName122111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle122111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price122111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate122111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="582.0" layoutY="508.0" prefHeight="10.0" prefWidth="110.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Label fx:id="orderID1211111" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="10.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName1211111" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="46.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="movieTitle1211111" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="85.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="price1211111" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="125.0" prefHeight="18.0" prefWidth="110.0" textFill="#f7f5f5" />
+            <Label fx:id="returnDate1211111" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <ImageView blendMode="LIGHTEN" fitHeight="63.0" fitWidth="71.0" layoutX="650.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OIG2%20(3).jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#f4f2f2" layoutX="25.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home |  Admin | ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#f4f2f2" layoutX="99.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#f4f2f2" layoutX="250.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders View">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

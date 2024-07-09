@@ -1,0 +1,6 @@
+.body {
+    -fx-background-color: linear-gradient(to right, #071f33, #1a3d47);
+}
+.body2 {
+    -fx-border-color:beige;
+}

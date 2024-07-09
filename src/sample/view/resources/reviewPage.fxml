@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="700.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.ReviewController">
+   <children>
+      <AnchorPane layoutX="461.0" layoutY="100.0" prefHeight="178.0" prefWidth="181.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <Text fill="#f4f2f2" layoutX="25.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title:" />
+            <Text fill="#f4f2f2" layoutX="25.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category:" />
+            <Text fill="#f4f2f2" layoutX="26.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration:" />
+            <Text fill="#f4f2f2" layoutX="27.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+            <Label fx:id="titleLabel" layoutX="106.0" layoutY="27.0" prefHeight="18.0" prefWidth="100.0" textFill="#f7f5f5" />
+            <Label fx:id="categoryLabel" layoutX="107.0" layoutY="66.0" prefHeight="18.0" prefWidth="100.0" textFill="#f7f5f5" />
+            <Label fx:id="durationLabel" layoutX="108.0" layoutY="107.0" prefHeight="18.0" prefWidth="100.0" textFill="#f7f5f5" />
+            <Label fx:id="descriptionLabel" layoutX="109.0" layoutY="147.0" prefHeight="18.0" prefWidth="100.0" textFill="#f7f5f5" />
+            <Label fx:id="dateLabel" layoutX="109.0" layoutY="144.0" prefHeight="18.0" prefWidth="100.0" textFill="#f7f5f5" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="330.0" layoutY="100.0" prefHeight="178.0" prefWidth="131.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="movieImage" fitHeight="157.0" fitWidth="112.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="35.0" layoutY="84.0" prefHeight="218.0" prefWidth="265.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <TextArea layoutX="11.0" layoutY="64.0" prefHeight="148.0" prefWidth="244.0" />
+            <Text fill="#f4f2f2" layoutX="15.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How was the movie?" />
+            <RadioButton fx:id="rate1" layoutX="132.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleRating" />
+            <RadioButton fx:id="rate2" layoutX="154.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleRating" />
+            <RadioButton fx:id="rate3" layoutX="176.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleRating" />
+            <RadioButton fx:id="rate4" layoutX="199.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleRating" />
+            <RadioButton fx:id="rate5" layoutX="222.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleRating" />
+         </children>
+      </AnchorPane>
+      <Text fill="#f4f2f2" layoutX="38.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Review:" />
+      <Text fill="#f4f2f2" layoutX="336.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Details:" />
+      <Text fill="#f4f2f2" layoutX="49.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Review:" />
+      <ImageView blendMode="LIGHTEN" fitHeight="63.0" fitWidth="71.0" layoutX="628.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@view/resources/logo.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#f4f2f2" layoutX="25.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home | ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#f4f2f2" layoutX="62.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Review">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

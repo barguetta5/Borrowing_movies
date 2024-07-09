@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MovieSearchController">
+   <children>
+      <Text fill="#f4f2f2" layoutX="22.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home |  Search">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#f4f2f2" layoutX="27.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result for:">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="movie1" layoutX="14.0" layoutY="175.0" onMouseClicked="#enterMovie" prefHeight="200.0" prefWidth="144.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="image1" fitHeight="150.0" fitWidth="110.0" layoutX="20.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="title1" alignment="CENTER" layoutX="5.0" layoutY="156.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+            <Label fx:id="category1" alignment="CENTER" layoutX="5.0" layoutY="174.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="movie11" layoutX="170.0" layoutY="176.0" onMouseClicked="#enterMovie" prefHeight="200.0" prefWidth="144.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="image2" fitHeight="150.0" fitWidth="110.0" layoutX="20.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="title2" alignment="CENTER" layoutX="5.0" layoutY="156.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+            <Label fx:id="category2" alignment="CENTER" layoutX="5.0" layoutY="174.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="movie111" layoutX="326.0" layoutY="177.0" onMouseClicked="#enterMovie" prefHeight="200.0" prefWidth="144.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="image3" fitHeight="150.0" fitWidth="110.0" layoutX="20.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="title3" alignment="CENTER" layoutX="5.0" layoutY="156.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+            <Label fx:id="category3" alignment="CENTER" layoutX="5.0" layoutY="174.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="movie1111" layoutX="482.0" layoutY="177.0" onMouseClicked="#enterMovie" prefHeight="200.0" prefWidth="144.0" styleClass="body2" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="image4" fitHeight="150.0" fitWidth="110.0" layoutX="20.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="title4" alignment="CENTER" layoutX="5.0" layoutY="156.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+            <Label fx:id="category4" alignment="CENTER" layoutX="5.0" layoutY="174.0" prefHeight="18.0" prefWidth="134.0" textFill="#faf2f2" />
+         </children>
+      </AnchorPane>
+      <ImageView blendMode="LIGHTEN" fitHeight="63.0" fitWidth="71.0" layoutX="556.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OIG2%20(3).jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
